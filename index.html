@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body style="background-image: url(1x/Inicio\ de\ sesión\ copia\ 2.png);background-size: cover;">
-</body>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="d-flex">
+      <!--Sidebar-->
+      <div>
+        <div class="collapse collapse-horizontal show" id="sidebar">
+          <div class="d-flex justify-content-center sidebar pt-3">
+            <img src="img/logo.png" width="140px">
+          </div>
+          <!--Iconos-->
+          <div class="pt-3">
+            
+            <div class="ms-4">
+
+              <!--Icono Home-->
+              <div class="icon-active">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/icon/home-active.png" class="iconimg">
+                  </div>
+                  <div class="col">
+                    <p class="icontxt-active">Home</p>
+                  </div>
+                </div>
+              </div>
+              <!--Icono Usuarios-->
+              <div class="icon">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/icon/users.png" class="iconimg">
+                  </div>
+                  <div class="col">
+                    <p class="icontxt">Usuarios</p>
+                  </div>
+                </div>
+              </div>
+              <!--Icono Calendario-->
+              <div class="icon">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/icon/calendar.png" class="iconimg">
+                  </div>
+                  <div class="col">
+                    <p class="icontxt">Calendario</p>
+                  </div>
+                </div>
+              </div>
+              <!--Icono Mapa-->
+              <div class="icon">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/icon/map.png" class="iconimg">
+                  </div>
+                  <div class="col">
+                    <p class="icontxt">Mapa</p>
+                  </div>
+                </div>
+              </div>
+              <!--Icono Cultivos-->
+              <div class="icon">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/icon/leaf.png" class="iconimg">
+                  </div>
+                  <div class="col">
+                    <p class="icontxt">Cultivos</p>
+                  </div>
+                </div>
+              </div>
+              <!--Icono Finanzas-->
+              <div class="icon">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/icon/dollar.png" class="iconimg">
+                  </div>
+                  <div class="col">
+                    <p class="icontxt">Finanzas</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contenido-->
+      <main>
+        <button data-bs-target="#sidebar" data-bs-toggle="collapse">Maiber es gay</button>
+      </main>
+    </div>
+  </body>
 </html>

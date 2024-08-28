@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+body{
+    background-image: url(../1x/Inicio\ de\ sesión\ copia\ 2.png);
+    background-size: cover;
+}*/
+.sidebar{
+    width: 16vw;
+}
+#sidebar{
+    background-color: #ffffff;
+    border-top-right-radius: 30px;
+    min-height: 100vh;
+    box-shadow: 0 5px 15px gray;
+}
+.icon{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 12vw;
+    height: 6vh;
+    margin-bottom: 5vh;
+    box-shadow: 5px 3px 5px rgb(184, 184, 184);
+    transition: all .25s;
+}
+.icon:hover{
+    background-color: #dadada;
+}
+
+.icon-active{
+    background-color: #a5a5a5;
+    border-radius: 20px;
+    width: 12vw;
+    height: 6vh;
+    margin-bottom: 5vh;
+    box-shadow: 5px 3px 5px rgb(184, 184, 184);
+    transition: all .25s;
+}
+
+.icon-active:hover{
+    background-color: #838383;
+}
+
+.iconimg{
+    width: 1.8vw;
+    margin: 0 10px 0 20px;
+    padding-top: 15%;
+}
+.icontxt{
+    color: #757575;
+    font-weight: 600;
+    padding-top: 7%;
+}
+
+.icontxt-active{
+    color: white;
+    font-weight: 600;
+    padding-top: 7%;
+}
