@@ -4,15 +4,16 @@
 }
 
 body{
-    background-image: url(../1x/Inicio\ de\ sesión\ copia\ 2.png);
+    /*background-image: url(../1x/Inicio\ de\ sesión\ copia\ 2.png);*/
     background-size: cover;
 }
+
+/*SIDEBAR*/
+
 .sidebar{
     width: 16vw;
 }
 #sidebar{
-    z-index: 2;
-    position: absolute;
     background-color: #ffffff;
     border-top-right-radius: 30px;
     min-height: 100vh;
@@ -62,13 +63,64 @@ body{
     padding-top: 7%;
 }
 
-.navbar{
-    z-index: 1;
-    position: absolute;
-    background-color: #ff0000;
+/*NAVBAR*/
+
+.colBar{
+    z-index: -1;
+    position: fixed;
+    background-color: #0c8652;
     width: 100vw;
+    height: 6vh;
 }
+
+main{
+    width: 100%;
+}
+
+.BarNav{
+    height: 6vh;
+}
+
+/*NavBar Parte Izquierda*/
 .menubtn{
-    display: block;
-    margin: 0 auto;
+    margin: 0 5px 0 5px;
+
+}
+.search{
+    border: 0;
+    width: 16vw;
+    height: 4vh;
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+    font-size: 14px;
+}
+.searcher{
+    position: relative;
+}
+.bi-search{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14.5vw;
+}
+a:hover{
+    cursor: pointer;
+}
+input::placeholder{
+    padding-left: 10px;
+    font-weight: 500;
+    color: #cacaca;
+}
+/*NavBar Parte Derecha*/
+.userInfo{
+    margin-right: 8px;
+    border-left: 2px solid white;
+}
+.userName{
+    color: white;
+    font-size: 14px;
+}
+.userIcon{
+    margin-right: .5vw;
+    margin-left: 1.3vw;
 }
