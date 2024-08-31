@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | AgroSis</title>
-    <link rel="icon" href="img/icon/favicon.png">
+    <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/login.css">
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    <!--Fondo Wave-->
+    <div class="backgroundWave">
+        <img src="img/login/wave.png" width="100%">
+    </div>
+    <img src="img/login/senaIcon.png" class="senaIcon">
     <!--Caja Inicio sesión-->
-    <div class="container loginBox">
+    <div class="container loginBox my-5">
 
         <div class="row">
 
@@ -19,7 +24,7 @@
             <div class="col-6">
                 <div class="margenLogin">
                     <div class="logoLeft">
-                        <img src="img/logoTexto.png" width="110px">
+                        <img src="img/login/logoTexto.png" width="110px">
                         <h6>¡Bienvenido de vuelta!</h6>
                     </div>
                     <div class="formulario">
@@ -33,14 +38,36 @@
                             <label>Contraseña:</label>
                             <input type="text" name="" class="form-control" placeholder="************">
                         </div>
-
+                        <div class="forgotPass">
+                            <a href=""><p>¿Olvidaste tu contraseña?</p></a>
+                            <p>¿No tienes una cuenta? <a href="">Regístrate aquí.</a></p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="index.html"><button class="loginButton">Iniciar</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!--Publicidad-->
-            <div class="col-6">
-                Espacio Publicitario
+            <div class="col-6 publicityBox">
+                <div class="my-5">
+                    <!--Texto y logo de App movil-->
+                    <h4 class="text-center">¡Recuerda también descargar la App Móvil!</h4>
+                    <div class="androidLogo">
+                        <img src="img/login/androidLogo.png" width="100%">
+                    </div>
+                    <div class="d-flex justify-content-center my-3">
+                        <img src="img/login/logoTexto2.png" width="70%">
+                    </div>
+
+                    <!--Get it on PlayStore and AppStore-->
+                    <div class="d-flex justify-content-center my-4 downloadIcons">
+                        <img src="img/login/googlePlay.png" width="40%" alt="">
+                        <img src="img/login/appStore.png" width="40%" alt="">
+                    </div>
+
+                </div>
             </div>
 
         </div>

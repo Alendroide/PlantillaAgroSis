@@ -6,12 +6,21 @@ p{
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all .5s;
+}
+a:hover{
+    color: rgb(0, 200, 255);
+}
 /*Contenedor Login y Publicidad*/
 .loginBox{
-    margin-top: 16.4vh;
+    background-color: white;
     width: 56%;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    min-height: 78vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .margenLogin{
     margin-left: 1vw;
@@ -28,6 +37,8 @@ label{
     font-size: 12px;
     font-weight: 600;
 }
+
+/*Formulario*/
 .form-control{
     background-color: #f5f5f5;
 }
@@ -37,4 +48,48 @@ label{
 }
 .formulario > div{
     margin-bottom: 7%;
+}
+.forgotPass{
+    font-size: 12px;
+}
+.loginButton{
+    padding: 8px 25px 8px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    background-color: #0c8652;
+    color: white;
+    transition: all .25s;
+}
+.loginButton:hover{
+    background-color: #09633c;
+}
+
+/*Publicidad - Mitad derecha*/
+.publicityBox{
+    background-color: #f5f5f5;
+    height: 78vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.androidLogo{
+    width: 54%;
+    margin: 0 auto;
+}
+.downloadIcons > img{
+    margin: 0 5px 0 5px;
+}
+
+/*Fondo*/
+.backgroundWave{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+.senaIcon{
+    position: fixed;
+    width: 8%;
+    bottom: 5%;
+    left: 2%;
 }
